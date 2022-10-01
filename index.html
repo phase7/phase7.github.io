@@ -11,6 +11,7 @@
 <base href="https://phase7.github.io">
 
 <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm_theme_big-stone.min.css">
+<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 <!-- Used for adding in-document CSS -->
 <style>
   /* ... */
@@ -30,6 +31,21 @@
 <body>
  <!--  <script src="js/scripts.js"></script> -->
   <h1> Let's gooooo! </h1>
+  <form action="https://send.pageclip.co/1B5KmCdHI05T5IZDy0Ym1NwfOzfezwRA/contact-form" class="pageclip-form" method="post">
+  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+
+  <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+  <!-- See https://pageclip.co/docs#special-fields for more info -->
+  <input type="email" name="email" value="ratul@example.com" />
+  <input type="text" name="message" value="your message here" />
+
+  <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+  <button type="submit" class="pageclip-form__submit">
+    <span>Send</span>
+  </button>
+</form>
+  
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
 
