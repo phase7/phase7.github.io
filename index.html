@@ -13,8 +13,24 @@
 <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm_theme_big-stone.min.css">
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 <!-- Used for adding in-document CSS -->
-<style>
-  /* ... */
+<style type="text/css">
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-rows: 5fr 20fr 5fr;
+    grid-gap: 10px;
+  }
+
+  header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
 </style>
 
 <!-- JavaScript & No-JavaScript tags -->
