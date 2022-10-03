@@ -2,148 +2,152 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ratul's Den</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ratul's Den</title>
 
-    <base href="https://phase7.github.io" />
+  <base href="https://phase7.github.io" />
 
   <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm_theme_big-stone.min.css" />
   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen" />
-    <style type="text/css">
-      .wrapper {
-        display: grid;
-        grid-template-columns: 1fr 5fr 2fr;
-        grid-template-rows: 5fr 20fr 5fr;
-        grid-gap: 10px;
-      }
+  <style type="text/css">
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 5fr 2fr;
+      grid-template-rows: 5fr 20fr 5fr;
+      grid-gap: 10px;
+    }
 
-      .wrapper form {
-        display: flex;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        justify-content: center;
-        align-items: flex-start;
-        border-radius: 1em;
-      }
+    .wrapper form {
+      display: flex;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      justify-content: center;
+      align-items: flex-start;
+      border-radius: 1em;
+    }
 
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
     form li+li {
-        margin-top: 1em;
-      }
+      margin-top: 1em;
+    }
 
-      label {
-        /* Uniform size & alignment */
-        display: inline-block;
-        width: 90px;
-        text-align: right;
-      }
+    label {
+      /* Uniform size & alignment */
+      display: inline-block;
+      width: 90px;
+      text-align: right;
+    }
 
-      input,
-      textarea {
-        /* To make sure that all text fields have the same font settings
+    input,
+    textarea {
+      /* To make sure that all text fields have the same font settings
           By default, textareas have a monospace font */
-        font: 1em sans-serif;
+      font: 1em sans-serif;
 
-        /* Uniform text field size */
-        width: 300px;
-        box-sizing: border-box;
+      /* Uniform text field size */
+      width: 300px;
+      box-sizing: border-box;
 
-        /* Match form field borders */
-        border: 1px solid #999;
-      }
+      /* Match form field borders */
+      border: 1px solid #999;
+    }
 
-      input:focus,
-      textarea:focus {
-        /* Additional highlight for focused elements */
-        border-color: #000;
-      }
+    input:focus,
+    textarea:focus {
+      /* Additional highlight for focused elements */
+      border-color: #000;
+    }
 
-      textarea {
-        /* Align multiline text fields with their labels */
-        vertical-align: top;
+    textarea {
+      /* Align multiline text fields with their labels */
+      vertical-align: top;
 
-        /* Provide space to type some text */
-        height: 5em;
-      }
+      /* Provide space to type some text */
+      height: 5em;
+    }
 
-      .button {
-        /* Align buttons with the text fields */
+    .button {
+      /* Align buttons with the text fields */
       padding-left: 90px;
       /* same size as the label elements */
-      }
+    }
 
-      button {
-        /* This extra margin represent roughly the same space as the space
+    button {
+      /* This extra margin represent roughly the same space as the space
           between the labels and their text fields */
-        margin-left: 0.5em;
-      }
+      margin-left: 0.5em;
+    }
 
-      header {
-        grid-column-start: 1;
-        grid-column-end: 4;
-      }
+    header {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
 
-      footer {
-        grid-column-start: 1;
-        grid-column-end: 4;
-      }
-    </style>
+    footer {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  </style>
 
-    <!-- <script>
+  <!-- <script>
       // function(s) go here
     </script> -->
-    <noscript> No javascript? very cool! </noscript>
-  </head>
+  <noscript> No javascript? very cool! </noscript>
+</head>
 
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Welcome to Ratul's Den</h1>
-        <p>
-          Nothing much going here. You can send me a message, I will get back to
-          you. Your kind words are much apprecieated.
-        </p>
-      </header>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Welcome to Ratul's Den</h1>
+      <p>
+        Nothing much going here. You can send me a message, I will get back to
+        you. Your kind words are much apprecieated.
+      </p>
+    </header>
     <form action="https://send.pageclip.co/1B5KmCdHI05T5IZDy0Ym1NwfOzfezwRA/contact-form" class="pageclip-form"
       method="post">
-        <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+      <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
 
-        <!-- It looks like you are creating a contact form. These email and subject fields are special -->
-        <!-- See https://pageclip.co/docs#special-fields for more info -->
-        <!-- <input type="text" name="name" placeholder="Your name" />
+      <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+      <!-- See https://pageclip.co/docs#special-fields for more info -->
+      <!-- <input type="text" name="name" placeholder="Your name" />
         <input type="email" name="email" placeholder="ratul@example.com" />
         <input type="text" name="message" placeholder="your message here" /> -->
-        <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" />
-          </li>
-          <li>
-            <label for="mail">E-mail:</label>
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
           <input type="email" id="mail" name="email" required />
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="message" required></textarea>
-          </li>
-          <!-- li for button -->
-          <li class="button">
-            <button type="submit" class="pageclip-form__submit">
-              <span>Send</span>
-            </button>
-          </li>
-        </ul>
-        <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-      </form>
-    </div>
-    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-  </body>
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="message" required></textarea>
+        </li>
+        <!-- li for button -->
+        <li class="button">
+          <button type="submit" class="pageclip-form__submit">
+            <span>Send</span>
+          </button>
+        </li>
+      </ul>
+      <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+    </form>
+  </div>
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "4a5f642466b04279992bb6d4d10600bc"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+</body>
 
 </html>
